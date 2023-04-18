@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Well Life Inventory</title>
+    <!--Links-->
+    <link rel="stylesheet" href="Style/style.css">
+	<script type="text/javascript" src="Script/Script.js"></script>
+	<script type="text/javascript" src="Script/table2excel.js"></script>
+</head>
+<body>
+	<div id="navbar">
+		<img src="Images/WellLife-Logo.png" class="NavBarLogo">
+		<a href="#" onclick="showTable('in-table')" class="active">In</a>
+		<a href="#" onclick="showTable('out-table')">Out</a>
+		<a href="#" onclick="showTable('history-table')">History</a>
+	</div>
+
+	<div id="content">
+				<button class="Edit Btn">Edit</button>
+			<button class="Print Btn"  onclick="tabletoexcel()">Print</button>
+		<!--
+
+					In table
+
+		-->
+
+		<table id="in-table">
+	
+			<thead>
+				<tr>
+					<th>Column 1</th>
+					<th>Column 2</th>
+					<th>Column 3</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Data 1</td>
+					<td>Data 2</td>
+					<td>Data 3</td>
+				</tr>
+				<tr>
+					<td>Data 4</td>
+					<td>Data 5</td>
+					<td>Data 6</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<!--
+
+					Out table
+
+		-->
+
+		<table id="out-table">
+			
+			<thead>
+				<tr>
+					<th>Column A</th>
+					<th>Column B</th>
+					<th>Column C</th>
+				</tr>
+			</thead>
+				<tbody>
+				<tr>
+					<td>Data A</td>
+					<td>Data B</td>
+					<td>Data C</td>
+				</tr>
+				<tr>
+					<td>Data D</td>
+					<td>Data E</td>
+					<td>Data F</td>
+				</tr>
+
+				<!--
+
+					History table
+
+				-->
+		<table id="history-table">
+			
+			<thead>
+				<tr>
+					<th>Column 0</th>
+					<th>Column 1</th>
+					<th>Column 2</th>
+				</tr>
+			</thead>
+				<tbody>
+				<tr>
+					<td>Test</td>
+					<td>Data B</td>
+					<td>Data C</td>
+				</tr>
+				<tr>
+					<td>Data D</td>
+					<td>Data E</td>
+					<td>Data F</td>
+				</tr>

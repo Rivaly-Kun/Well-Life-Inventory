@@ -1,0 +1,101 @@
+#navbar {
+    background-color: #9be06d ;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    width: 200px;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.NavBarLogo{
+    width: 100px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    padding: 20px;  
+}
+
+#navbar a { 
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    border-radius: 40px;
+    border-bottom: 1px solid yellowgreen;
+    border-top: 1px solid yellowgreen;
+    border-left: 1px solid yellowgreen;
+    border-right: 1px solid yellowgreen;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px; /* Add spacing between links */
+    
+}
+
+
+#navbar a:first-child {
+    border-top: 1px solid #ddd;
+}
+
+#navbar a:hover {
+    background-color: #f2f2f2;
+}
+
+#content {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+  width: 90%; /* Adjust this value to your liking */
+  margin: 0 auto; /* Centers the table horizontally */
+  border-radius: 10px; /* Rounds the table border */
+  overflow: hidden; /* Ensures that the rounded corners are visible */
+  table-layout: fixed; /* Makes each <tr> element the same width */
+  display: none;  
+  margin-top: 55px;
+  margin-bottom: 20px;
+}
+  
+  th, td {
+      overflow: hidden;
+    text-align: left;
+  padding: 12px;
+  border: 1px solid #ddd;
+  width: auto; /* Reset the width to auto, since we're using fixed layout */
+  }
+  
+  th {
+  background-color: #4CAF50;
+  color: white;
+  } 
+  
+  tr:hover {
+  background-color: #ddd;
+  }
+
+  .Btn{
+    background: green;
+    width: 70px;
+    height: 25px;
+    border-radius: 15px;
+    transition: background-color 0.5s ease;
+  }
+
+  .Btn:hover {
+    background-color: greenyellow;
+}
+
+.Edit {
+    margin-right: 950px;
+}
+
+.Edit,
+.Print {
+  margin-bottom: 10px;
+}
